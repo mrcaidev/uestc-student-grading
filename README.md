@@ -12,15 +12,17 @@
 
 > [1-course.js](https://github.com/mrcaidev/uestc-student-grading/blob/master/1-course.js)
 
-脚本将列表最开始的三门课程评为 5 星，其余的评为 4 星，并点击“下一步”按钮。
+脚本将列表最开始的 n 门课程评为 5 星，其余的评为 4 星，并点击“下一步”按钮。
+
+注：n 默认为 4，可以通过修改 `fiveStarsNum` 变量的值来调整。
 
 ### 2. 教材评价
 
 > [2-coursebook.js](https://github.com/mrcaidev/uestc-student-grading/blob/master/2-coursebook.js)
-> 
-> 注：用户需要先手动进入每一本教材的评价页面。
 
 脚本勾选所有选择题的第一项，也就是最高评价，并点击“确认”按钮。
+
+注：用户需要先手动进入每一本教材的评价页面。
 
 ### 3. 教师评价
 
