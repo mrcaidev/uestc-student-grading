@@ -4,7 +4,7 @@
 document
   .querySelectorAll("input[type='checkbox']")
   .forEach(item => (item.checked = true));
-document.querySelector("#evaText").textContent = "教学态度好，教学内容吸引人";
+document.querySelector("#evaText").textContent = "教学态度好，教学内容吸引人" + Math.random();
 
 try {
   document.querySelector("input[value='下一步']").click();
